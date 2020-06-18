@@ -129,7 +129,7 @@ app.get('/',function(req,res){
         'Access-control-Allow-Origin': '*'
     });
     return res.redirect('index.html');
-}).listen(3000);
+}).listen(8080);
 //viewing specific blog
 app.get('/:id', function(req, res,) {
     const id =req.params.id;
